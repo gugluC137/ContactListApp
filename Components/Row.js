@@ -7,9 +7,11 @@ const styles = StyleSheet.create({
     },
 })
 
-export default Row = props => ( 
+const Row = props => ( 
     <View style={styles.row}>
         <Text>{props.name}</Text> 
         <Text>{props.phone}</Text> 
     </View>
 )
+
+export default Row;

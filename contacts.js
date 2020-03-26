@@ -1,4 +1,4 @@
-export default contacts = [{
+const contacts = [{
         key: 1,
         name: 'Biswajit Behera',
         phone: '1234567890',
@@ -49,3 +49,5 @@ export default contacts = [{
         phone: '1234567890',
     },
 ];
+
+export default contacts;
